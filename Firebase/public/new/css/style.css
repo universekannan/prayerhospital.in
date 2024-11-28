@@ -1010,7 +1010,7 @@ body{
 .why-choose .choose-right{
 	height:100%;
 	width:100%;
-	background-image:url('img/video-bg.jpg');
+	background-image:url('img/video-bg.jpeg');
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -1065,6 +1065,33 @@ body{
 /*=======================
 	End Why choose CSS
 =========================*/
+
+.video-container {
+	position: relative;
+	display: inline-block;
+	width: 100%; /* Or specify a width */
+	height: 400px; /* Or specify a height */
+	}
+
+	.video-image {
+	width: 100%; /* Makes the image fill the container */
+	height: 100%; /* Ensures the image covers the container */
+	object-fit: cover; /* Makes sure the image is scaled properly */
+	}
+
+	.video-play-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 50px; /* Size of the play icon */
+	color: rgb(248, 250, 255); /* Color of the play icon */
+	background-color: rgba(0, 0, 0, 0.5); /* Optional: Adds a dark background behind the icon */
+	padding: 15px;
+	border-radius: 50%;
+	cursor: pointer; /* Optional: Makes it appear clickable */
+	}
+
 
 /*===============================
 	Start Call to action CSS
