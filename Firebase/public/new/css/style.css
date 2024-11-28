@@ -1010,7 +1010,11 @@ body{
 .why-choose .choose-right{
 	height:100%;
 	width:100%;
+<<<<<<< HEAD
 	background-image:url('img/video-bg.jpeg');
+=======
+	background-image:url('img/video-bg.jpg');
+>>>>>>> f9bcafe6ad6b12d621c29746fed8114a5ca4fec3
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -1066,6 +1070,7 @@ body{
 	End Why choose CSS
 =========================*/
 
+<<<<<<< HEAD
 .video-container {
 	position: relative;
 	display: inline-block;
@@ -1093,6 +1098,8 @@ body{
 	}
 
 
+=======
+>>>>>>> f9bcafe6ad6b12d621c29746fed8114a5ca4fec3
 /*===============================
 	Start Call to action CSS
 =================================*/
