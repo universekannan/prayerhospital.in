@@ -618,7 +618,7 @@ body{
 	font-weight: 400;
 }
 .slider .single-slider .button{
-	margin-top:30px;
+	margin-top:90px;
 }
 .slider .single-slider .btn{
 	color:#fff;
@@ -1496,7 +1496,7 @@ body{
 	border-radius: 3px;
 	margin: 0 0 0 -52px;
 	margin-top: 49px;
-	box-sizing: ;
+	box-sizing: 0;
 }
 .testimonials .owl-dots .owl-dot {
 	display: inline-block;
@@ -3733,7 +3733,7 @@ body{
   height: 100%;
   background-image: url('img/video-bg.jpeg');
   background-position: center center;
-  background-size: cover;
+  background-size: 600px;
   background-repeat: no-repeat;
 }
 /* .about-image img {
